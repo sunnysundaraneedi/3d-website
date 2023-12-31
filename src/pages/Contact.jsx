@@ -52,7 +52,7 @@ const Contact = () => {
         showAlert({ text: "Message send successfully!", type: "success" });
 
         setTimeout(() => {
-          showHide();
+          hideAlert();
           setCurrentAnimation("idle");
           setForm({ name: "", email: "", message: "" });
         }, 3000);
